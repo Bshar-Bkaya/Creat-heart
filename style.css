@@ -1,12 +1,11 @@
 /* Creat the square  */
 .heart {
   background-color  : red;
-  height            : 30px;
-  margin            : 20px auto;
+  height            : 130px;
+  margin            : 150px auto;
   position          : relative;
-  top               : 0;
   transform         : rotate(-45deg);
-  width             : 30px;
+  width             : 130px;
 }
 
 /* Creat tow circle */
@@ -15,17 +14,17 @@
   content           : "";
   background-color  : red;
   border-radius     : 50%;
-  height            : 30px;
+  height            : 130px;
   position          : absolute;
-  width             : 30px;
+  width             : 130px;
 }
 
 .heart:before {
-  top   : -15px;
+  top   : -65px;
   left  : 0;
 }
 
 .heart:after {
-  left  : 15px;
+  left  : 65px;
   top   : 0;
 }
